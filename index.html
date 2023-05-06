@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <title>Facebook - Log In Or Sign Up</title>
+  </head>
+  <body class="bg-slate-100">
+    <div class="container mt-48 flex justify-center items-center">
+      <div class="left-box w-1/2 mx-5">
+        <img class="h-24" src="images/facebook_logo.svg" alt="facebook_logo" />
+        <p class="text-3xl mx-7 px-1">
+          Facebook helps you connect and share with people.
+        </p>
+      </div>
+      <div
+        class="right-box bg-white px-2 py-5 flex flex-col justify-center items-center rounded-xl gap-3 w-[30%] relative shadow-xl"
+      >
+        <input
+          class="h-12 px-4 w-11/12 outline-slate-300 outline outline-1 focus:outline-blue-400 focus:outline-2 rounded-lg"
+          type="text"
+          placeholder="Email or Phone number"
+          autocomplete="off"
+        />
+        <input
+          class="h-12 px-4 w-11/12 outline-slate-300 outline outline-1 focus:outline-blue-400 focus:outline-2 rounded-lg"
+          type="password"
+          name="pass"
+          id="pass"
+          placeholder="Password"
+          autocomplete="off"
+        />
+        <button
+          class="bg-blue-700 hover:bg-blue-600 w-11/12 py-2 text-white rounded-md"
+        >
+          Log In
+        </button>
+        <span class="text-blue-600 cursor-pointer hover:underline"
+          >forgot password?</span
+        >
+        <hr class="border-slate-300 w-full" />
+        <button class="bg-green-600 w-1/2 py-2 mt-2 text-white rounded-md">
+          Create New Account
+        </button>
+        <div class="absolute -bottom-10 text-sm">
+          <span class="font-bold hover:underline cursor-pointer"
+            >Create a Page</span
+          >
+          for a celebrity, brand or business .
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
